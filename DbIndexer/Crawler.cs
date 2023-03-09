@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-
-namespace Indexer
+﻿
+namespace DbIndexer
 {
     public class Crawler
     {

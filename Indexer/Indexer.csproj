@@ -14,7 +14,6 @@
     <None Remove="Microsoft.Data.Sqlite" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SQLitePCLRaw.core" Version="2.0.7" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.2" />
   </ItemGroup>
   <ItemGroup>

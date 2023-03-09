@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ConsoleSearch
+﻿namespace ConsoleSearch
 {
     class Program
     {

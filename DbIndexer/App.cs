@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Common;
+﻿using Common;
 
-namespace Indexer
+namespace DbIndexer
 {
     public class App
     {

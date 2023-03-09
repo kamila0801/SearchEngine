@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Common;
+﻿using Common;
 using Microsoft.Data.Sqlite;
 
-namespace Indexer
+namespace DbIndexer
 {
     public class Database
     {
