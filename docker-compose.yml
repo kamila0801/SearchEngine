@@ -8,4 +8,4 @@ services:
     ports:
       - 9000:80
     volumes:
-      - /Users/kamilapotasiak/Documents/school:/data
+      - /Users/kamila/Desktop/Computer Science/Large Systems:/data
