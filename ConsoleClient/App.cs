@@ -8,8 +8,7 @@ public class App
     public void Run()
     {
         HttpClient api = new HttpClient();
-        api.BaseAddress = new Uri("http://localhost:5193");
-        //SearchLogic mSearchLogic = new SearchLogic(new Database());
+        api.BaseAddress = new Uri("http://localhost:9000");
         Console.WriteLine("Console Search");
             
         while (true)

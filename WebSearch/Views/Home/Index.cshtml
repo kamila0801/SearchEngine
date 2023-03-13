@@ -8,13 +8,13 @@
     <button type="button" id="btn-search" class="form-control btn-primary mt-3" data-bind="click: search">Search</button>
 
     <div class="mt-5" data-bind="visible: timeUsed() != null">
-        <small>Time used: <span data-bind="text: timeUsed"></span> - Number of hits: <span data-bind="text: hits"></span></small>
+        <small>Time used: <span data-bind="text: timeUsed"></span>ms   -   Number of hits: <span data-bind="text: hits"></span></small>
     </div>
 
     <div class="mt-5" data-bind="foreach: results">
         <p>
-            <b data-bind="text: Document.mUrl"></b><br>
-            <small>Number of hits: <span data-bind="text: NoOfHits"></span></small>
+            <b data-bind="text: path"></b><br>
+            <small>Number of hits: <span data-bind="text: numberOfApearances"></span></small>
         </p>
     </div>
 </div>

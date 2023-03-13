@@ -4,6 +4,6 @@ namespace Common
     {
         public static string DatabasePath { get; } = "/data/database.db";
         public static string DataSourcePath { get; } = "/data/EnronMini";
-        public static int NumberOfFoldersToIndex { get; } = 2; // Use 0 or less for indexing all folders
+        public static int NumberOfFoldersToIndex { get; } = 10; // Use 0 or less for indexing all folders
     }
 }

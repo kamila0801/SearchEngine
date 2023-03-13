@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbIndexer", "DbIndexer\DbIndexer.csproj", "{C0ACCEEB-1E2C-4B93-8FD0-CEC40C1B3D65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSearch", "WebSearch\WebSearch.csproj", "{3FFA78E5-39D5-4E8F-9B17-E4EAD39F39B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancer", "LoadBalancer\LoadBalancer.csproj", "{607B4B6C-DA2F-41C5-B3E3-514BDFE5EC47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C0ACCEEB-1E2C-4B93-8FD0-CEC40C1B3D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0ACCEEB-1E2C-4B93-8FD0-CEC40C1B3D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0ACCEEB-1E2C-4B93-8FD0-CEC40C1B3D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFA78E5-39D5-4E8F-9B17-E4EAD39F39B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFA78E5-39D5-4E8F-9B17-E4EAD39F39B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFA78E5-39D5-4E8F-9B17-E4EAD39F39B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFA78E5-39D5-4E8F-9B17-E4EAD39F39B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607B4B6C-DA2F-41C5-B3E3-514BDFE5EC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607B4B6C-DA2F-41C5-B3E3-514BDFE5EC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607B4B6C-DA2F-41C5-B3E3-514BDFE5EC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607B4B6C-DA2F-41C5-B3E3-514BDFE5EC47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
